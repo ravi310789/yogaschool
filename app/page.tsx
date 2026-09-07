@@ -165,10 +165,9 @@ export default async function Home() {
     <main className="bg-stone-50 text-slate-900">
       <section className="relative isolate overflow-hidden">
         <div className="relative h-[420px] w-full overflow-hidden sm:h-[520px] lg:h-[72vh] min-h-[420px] max-h-[760px]">
-          {/* Temporary hero image placeholder: replace with a real ashram photo before launch. */}
           <Image
-            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1800&q=80"
-            alt="Yoga and meditation by a riverside setting inspired by Rishikesh"
+            src="/IMG-20250527-WA0003.jpg"
+            alt="Traditional Yoga Ashram in Rishikesh"
             fill
             priority
             className="object-cover"
